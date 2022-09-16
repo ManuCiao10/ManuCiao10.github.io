@@ -1,4 +1,4 @@
-baseurl      = "https://manuciao10.github.io/"
+baseurl      = "https://manuciao10.github.io"
 title        = "4bes.nl-theHugoVersion"
 languageCode = "en-us"
 theme = "hugo-theme-console"
