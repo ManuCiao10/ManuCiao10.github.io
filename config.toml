@@ -1,0 +1,53 @@
+baseurl      = "https://manuciao10.github.io/"
+title        = "4bes.nl-theHugoVersion"
+languageCode = "en-us"
+theme = "hugo-theme-console"
+paginate     = 10
+publishDir = "docs"
+
+[params]
+  dateform        = "Jan 2, 2006"
+  dateformShort   = "Jan 2"
+  dateformNum     = "2006-01-02"
+  dateformNumTime = "2006-01-02 15:04"
+
+  # Subtitle for home
+  homeSubtitle = "This is an example to show how cool Hugo and GitHub pages are together"
+
+  # Set disableReadOtherPosts to true in order to hide the links to other posts.
+  disableReadOtherPosts = false
+
+  # Enable sharing buttons, if you like
+  enableSharingButtons = true
+
+  # Metadata mostly used in document's head
+  description = "My new homepage or blog"
+  keywords = "homepage, blog"
+  images = [""]
+
+[taxonomies]
+    category = "blog"
+    tag      = "tags"
+    series   = "series"
+
+[languages]
+  [languages.en]
+    title = "blog | YΞ"
+    subtitle = "A simple theme for Hugo"
+    keywords = ""
+    copyright = '<a href="https://creativecommons.org/licenses/by-nc/4.0/" target="_blank" rel="noopener">CC BY-NC 4.0</a>'
+    readOtherPosts = "Read other posts"
+
+    [languages.en.params.logo]
+      logoText = "/Users/admin/Desktop/ManuCiao10.github.io/themes/hugo-theme-console/layouts/gallery/logo.jpeg"
+      logoHomeLink = "/Users/admin/Desktop/ManuCiao10.github.io/themes/hugo-theme-console/layouts/gallery/logo.jpeg"
+    # or
+    #
+    # path = "/Users/admin/Desktop/ManuCiao10.github.io/themes/hugo-theme-console/layouts/gallery/logo.jpeg"
+    # alt = "/Users/admin/Desktop/ManuCiao10.github.io/themes/hugo-theme-console/layouts/gallery/logo.jpeg"
+
+  # And you can even create generic menu
+  [[menu.main]]
+    identifier = "blog"
+    name       = "Blog"
+    url        = "posts"
