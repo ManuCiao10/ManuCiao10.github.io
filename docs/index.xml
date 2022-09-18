@@ -1,11 +1,11 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>4bes.nl-Hugo-Demo</title>
-    <link>https://ba4bes.github.io/4beshugo/</link>
-    <description>Recent content on 4bes.nl-Hugo-Demo</description>
+    <title>blog | YΞ</title>
+    <link>https://manuciao10.github.io/</link>
+    <description>Recent content on blog | YΞ</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <copyright>&lt;a href=&#34;https://creativecommons.org/licenses/by-nc/4.0/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;CC BY-NC 4.0&lt;/a&gt;</copyright><atom:link href="https://ba4bes.github.io/4beshugo/index.xml" rel="self" type="application/rss+xml" />
+    <copyright>&lt;a href=&#34;https://creativecommons.org/licenses/by-nc/4.0/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;CC BY-NC 4.0&lt;/a&gt;</copyright><atom:link href="https://manuciao10.github.io/index.xml" rel="self" type="application/rss+xml" />
   </channel>
 </rss>

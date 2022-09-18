@@ -67,6 +67,9 @@
   box-shadow: none;
 }
 
+/* ======================================== */
+
+/* ======================================== */
 .label {
   font-family: var(--font-stack);
 }
@@ -74,7 +77,7 @@
 body {
   font-family: var(--font-stack);
   font-size: var(--global-font-size);
-  background-color: #fff;
+  background-color: #e2dbc8;
   margin-bottom: 75px;
 }
 
@@ -99,6 +102,9 @@ h1 {
   text-align: center;
 }
 
+h1 {
+  font-size: 1.5em;
+}
 
 .content-column-content p,
 .content-column-content li {
@@ -150,6 +156,45 @@ strong {
 
 .logo {
   font-weight: normal;
+}
+
+.footer {
+  margin-top: 50px;
+  padding-top: 5px;
+}
+
+.bio {
+  position: relative;
+  z-index: 9991;
+}
+
+.bio {
+  text-align: left;
+  /* padding: 0 10px; */
+  margin-bottom: 10px;
+  margin-bottom: 1vh;
+  /* line-height: 1.7vh; */
+  line-height: 1.3em;
+  width: 50%;
+  font-family: monospace;
+  /* font-family: "courier-prime.regular"; */
+  /* font-family: 'FreeMono'; */
+  /* font-size: 13px; */
+  font-size: 14px;
+}
+
+#title {
+  font-size: 1.05rem;
+}
+
+#read {
+  color: #504e49;
+  background: #f1ede4;
+}
+
+#span_info {
+  float: right;
+  text-align: right;
 }
 
 .terminal-menu li {
@@ -276,10 +321,5 @@ figure {
     font-weight: bold;
     padding-top: 0;
     display: none;
-  }
-
-  .footer {
-    margin-top: 50px;
-    padding-top: 5px;
   }
 }
