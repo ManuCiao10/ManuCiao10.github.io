@@ -1,0 +1,3 @@
+User-agent: *
+Don't fucking use your unpower bot on my website: *
+Disallow:
