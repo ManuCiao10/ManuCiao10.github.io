@@ -1,17 +1,9 @@
-import logo from "../img/logo.png";
+import logo from "../img/favicon.png";
 
 function Header() {
   return (
-    <div className="header">
-      <img src={logo} alt="logo" className="logo" />
-      <div className="header-right">
-        <a className="active" href="#home">
-          Home
-        </a>
-        <a href="#about">About</a>
-        <a href="#services">Services</a>
-        <a href="#contact">Contact</a>
-      </div>
+    <div className="header-left">
+      <img className="logo" src={logo} alt="Logo" draggable="false" />
     </div>
   );
 }
