@@ -39,3 +39,10 @@
 .read-the-docs {
   color: #888;
 }
+
+.title-bio {
+  font-size: 1.5em;
+  font-weight: 300;
+  line-height: 1.5;
+  margin: 0;
+}
