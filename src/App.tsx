@@ -3,6 +3,8 @@ import img from "../img/globe-dark.png";
 import logo from "../img/favicon.png";
 
 // import Header from "./Header";
+//add backgroud images
+import background from "../img/background.png";
 
 function App() {
   return (
@@ -36,13 +38,15 @@ function App() {
       <div className="App">
         {/* <Header /> */}
 
-        {/* <img src={img} alt="globe" className="globe" /> */}
-        <div className="title-bio noHover">
+        <img src={img} alt="globe" className="globe" />
+        <div className="title-bio noHover ">
           Your vision<br></br>
           <span className="title-bio-span noHover">my execution</span>
         </div>
 
-        <p className="agency-intro noHover">Your online presence to the next level.</p>
+        <p className="agency-intro noHover">
+          Your online presence to the next level.
+        </p>
       </div>
     </>
   );
@@ -51,9 +55,13 @@ function App() {
 export default App;
 
 /*
-0. remove the text from mouseover
-0. [x] Fix Text alignment main phrase
+
+--draggable="false" is used to prevent the image from being dragged
+//for text use <p> instead of <div> because <p> is a block element
+
+0. add bottom border to header
+1. add btton under your online precence to the next level
 1. [+] Domain
-2. [+] Mare sfondo end of the page
+2. [+] sea sfondo end of the page
 6. [+] Clean the code adding functions and components
 */

@@ -7,8 +7,8 @@
 .logo {
   /* margin-top: 50px; */
   float: left;
-  height: 4.5em;
-  width: 4.5em;
+  height: 5.5em;
+  width: 5.5em;
   filter: invert(0.8);
 }
 
@@ -37,7 +37,7 @@
   --tw-ring-offset-shadow: 0 0 transparent;
   --tw-ring-shadow: 0 0 transparent;
   position: relative;
-  /* z-index: 100; */
+  z-index: 100;
   background-image: linear-gradient(90deg, var(--tw-gradient-stops));
   --tw-gradient-from: #060606df;
   --tw-gradient-stops: var(--tw-gradient-from),
@@ -51,10 +51,9 @@
 }
 
 .globe {
-  max-width: 30%;
-  display: block;
-  margin-left: auto;
-  filter: brightness(1.2);
+  max-width: 20%;
+  filter: brightness(1);
+  position: absolute;
 }
 
 .agency-intro {
@@ -79,6 +78,8 @@
   --tw-ring-shadow: 0 0 transparent;
   margin: 0;
   margin-bottom: 0.5rem;
+  font-weight: 530;
+  margin-top: 1rem;
   font-size: 1.25rem;
   --tw-text-opacity: 1;
   color: rgba(102, 102, 102, var(--tw-text-opacity));
@@ -129,6 +130,25 @@
   color: transparent;
 }
 
-.noHover{
+.noHover {
   pointer-events: none;
+}
+
+.header-left {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 1rem;
+}
+
+.header-size-less {
+  max-width: 1280px;
+  margin: 0 auto;
+  padding: 0rem;
+}
+
+.header-nice-formatted {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
 }
