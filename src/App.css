@@ -192,4 +192,14 @@
 
 .flex {
   display: flex;
+  /* justify-content: space-between; */
+  width: 50%;
+  /* max-width: 1024px; */
+  justify-content: space-around;
+  align-items: center;
+  float: right;
+  /* color: #aaa; */
+
 }
+
+

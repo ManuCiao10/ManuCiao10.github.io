@@ -14,3 +14,9 @@ body {
 h1 {
   font-size: 3.2em;
 }
+
+ul {
+  display: flex;
+  justify-content: space-between;
+  list-style-type: none;
+}

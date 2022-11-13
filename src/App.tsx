@@ -60,9 +60,6 @@ function App() {
                     target="_blank"
                     rel="noopener noreferrer"
                   >
-                    <ReactTooltip place="bottom" id="linkedin">
-                      {/* <span>Ian Hildebrand</span> */}
-                    </ReactTooltip>
                     <AiFillLinkedin
                       className="fill-current text-black hover:text-blue-500 transition duration-300"
                       size="1.5em"
