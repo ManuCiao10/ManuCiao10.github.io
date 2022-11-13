@@ -38,15 +38,25 @@ function App() {
       <div className="App">
         {/* <Header /> */}
 
-        <img src={img} alt="globe" className="globe" draggable= "false" />
         <div className="title-bio noHover noselect">
           Your vision<br></br>
           <span className="title-bio-span noHover noselect">my execution</span>
         </div>
-
         <p className="agency-intro noHover noselect">
-          Your online presence to the next level.
+          
         </p>
+        <div className="grid-main noHover noselect">
+          <a className="block-link" href="/payment">
+            <img src={img} alt="globe" className="globe" draggable="false" />
+          </a>
+          <div className="grid-text">
+            <h1 className="grid-title noHover noselect"></h1>
+            <p className="grid-desc noHover noselect">
+              Your online presence to the next level.
+            </p>
+            <div className="button-get noHover noselect">Get in touch</div>
+          </div>
+        </div>
       </div>
     </>
   );
@@ -58,7 +68,7 @@ export default App;
 
 
 //for text use <p> instead of <div> because <p> is a block element
-
+- fix responsive with iphone and mobile
 - add discord and check if is possible to cheate the button to pay with the world inside
 0. add bottom border to header
 1. add btton under your online precence to the next level
