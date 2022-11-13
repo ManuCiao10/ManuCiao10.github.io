@@ -28,7 +28,7 @@ function App() {
             {/* Site navigation */}
             <nav className="flex flex-grow">
               <ul className="flex flex-grow justify-end flex-wrap items-center space-x-4">
-                <li className="hidden md:block">
+                {/* <li className="hidden md:block">
                   <a
                     data-tip
                     data-for="discord"
@@ -39,7 +39,7 @@ function App() {
                       size="1.5em"
                     />
                   </a>
-                </li>
+                </li> */}
                 <li className="hidden md:block">
                   <a
                     data-tip
@@ -52,21 +52,8 @@ function App() {
                     />
                   </a>
                 </li>
-                <li className="hidden md:block">
-                  <a
-                    data-tip
-                    data-for="linkedin"
-                    href="https://www.linkedin.com/in/ian-hildebrand/"
-                    target="_blank"
-                    rel="noopener noreferrer"
-                  >
-                    <AiFillLinkedin
-                      className="fill-current text-black hover:text-blue-500 transition duration-300"
-                      size="1.5em"
-                    />
-                  </a>
-                </li>
-                <li className="hidden md:block">
+                
+                {/* <li className="hidden md:block">
                   <a
                     data-tip
                     data-for="github"
@@ -79,7 +66,7 @@ function App() {
                       size="1.5em"
                     />
                   </a>
-                </li>
+                </li> */}
                 <li>
                   <a
                     href="https://discord.gg/7PepvThQ9p"

@@ -192,14 +192,34 @@
 
 .flex {
   display: flex;
-  /* justify-content: space-between; */
   width: 50%;
-  /* max-width: 1024px; */
   justify-content: space-around;
   align-items: center;
   float: right;
-  /* color: #aaa; */
-
 }
 
+.btn-sm {
+  --geist-space-small: 32px;/* --geist-page-width-with-margin: calc(var(--geist-page-width) + calc(2 * var(--geist-page-margin))); */
+  --geist-radius: 5px;
+  --geist-form-small-height: var(--geist-space-small);
+  --geist-form-font: 0.875rem;
+  --geist-form-line-height: 1.25rem;
+  --geist-foreground: #000;
+  --geist-background: #fff;
+  text-decoration: none;
+  cursor: pointer;
+  user-select: none;
+  border-radius: var(--geist-radius);
+  color: var(--themed-fg,var(--geist-foreground));
+  background: var(--themed-bg,var(--geist-background));
+  border: 1px solid var(--themed-border,var(--geist-background));
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  transition-timing-function: ease;
+  line-height: var(--geist-form-line-height);
+  font-size: var(--geist-form-small-font);
+  height: var(--geist-form-small-height);
+  margin-left: var(--geist-gap);
+}
 
