@@ -13,9 +13,9 @@
 }
 
 .title-bio {
-  margin: 0;
+  /* margin: 0; */
   filter: invert(0.8);
-  tab-size: 4;
+  /* tab-size: 4; */
   -webkit-text-size-adjust: 100%;
   --tw-bg-opacity: 1;
   font-family: Inter, sans-serif;
@@ -23,17 +23,17 @@
   line-height: 0.8;
   letter-spacing: -0.02em;
   font-size: 5.5rem;
-  pointer-events: auto;
+  /* pointer-events: auto; */
   box-sizing: border-box;
   border: 0 solid;
-  --tw-border-opacity: 1;
-  border-color: rgba(234, 234, 234, var(--tw-border-opacity));
-  --tw-shadow: 0 0 transparent;
-  --tw-ring-inset: var(--tw-empty, /*!*/ /*!*/);
-  --tw-ring-offset-width: 0px;
-  --tw-ring-offset-color: #fff;
-  --tw-ring-offset-shadow: 0 0 transparent;
-  --tw-ring-shadow: 0 0 transparent;
+  /* --tw-border-opacity: 1; */
+  /* border-color: rgba(234, 234, 234, var(--tw-border-opacity)); */
+  /* --tw-shadow: 0 0 transparent; */
+  /* --tw-ring-inset: var(--tw-empty, ! !); */
+  /* --tw-ring-offset-width: 0px; */
+  /* --tw-ring-offset-color: #fff; */
+  /* --tw-ring-offset-shadow: 0 0 transparent; */
+  /* --tw-ring-shadow: 0 0 transparent; */
   position: relative;
   z-index: 100;
   background-image: linear-gradient(90deg, var(--tw-gradient-stops));
@@ -44,7 +44,8 @@
   -webkit-background-clip: text;
   background-clip: text;
   text-align: center;
-  color: transparent;
+  color: hsla(0, 0%, 62%, 0);
+  /* opacity: 1; */
 }
 
 .globe {
@@ -61,24 +62,24 @@
 }
 
 .title-bio-span {
-  margin: 0;
-  tab-size: 4;
+  /* margin: 0; */
+  /* tab-size: 4; */
   -webkit-text-size-adjust: 100%;
-  --tw-bg-opacity: 1;
-  font-family: Inter, sans-serif;
-  font-weight: 800;
+  /* --tw-bg-opacity: 1; */
+  /* font-family: Inter, sans-serif; */
+  /* font-weight: 800; */
   line-height: 1;
-  letter-spacing: -0.02em;
-  font-size: 5.5rem;
-  pointer-events: auto;
-  box-sizing: border-box;
-  border: 0 solid;
-  --tw-border-opacity: 1;
-  border-color: rgba(234, 234, 234, var(--tw-border-opacity));
-  --tw-shadow: 0 0 transparent;
-  --tw-ring-offset-width: 0px;
-  --tw-ring-offset-shadow: 0 0 transparent;
-  --tw-ring-shadow: 0 0 transparent;
+  /* letter-spacing: -0.02em; */
+  /* font-size: 5.5rem; */
+  /* pointer-events: auto; */
+  /* box-sizing: border-box; */
+  /* border: 0 solid; */
+  /* --tw-border-opacity: 1; */
+  /* border-color: rgba(234, 234, 234, var(--tw-border-opacity)); */
+  /* --tw-shadow: 0 0 transparent; */
+  /* --tw-ring-offset-width: 0px; */
+  /* --tw-ring-offset-shadow: 0 0 transparent; */
+  /* --tw-ring-shadow: 0 0 transparent; */
   background-image: linear-gradient(90deg, var(--tw-gradient-stops));
   --tw-gradient-from: #b59f9fdf;
   --tw-gradient-stops: var(--tw-gradient-from),
@@ -87,8 +88,8 @@
 
   -webkit-background-clip: text;
   background-clip: text;
-  text-align: center;
-  color: transparent;
+  /* text-align: center; */
+  /* color: transparent; */
 }
 
 .noHover {
@@ -188,6 +189,7 @@
   letter-spacing: -0.025em;
   font-weight: 400;
   border: 1.9px solid hsla(0, 0%, 100%, 0.15);
+  
 }
 
 .flex {
@@ -210,9 +212,10 @@
   background-color: rgba(234, 225, 225, 0.101);
   border: 1.5px solid rgba(231, 212, 212, 0.363);
   backdrop-filter: blur(30px);
-  color: rgba(255, 255, 255, 0.8);
+  color: rgba(255, 255, 255, 0.824);
   font-size: 19px;
   letter-spacing: 1.3px;
+  font-family: Inter, sans-serif;
 }
 
 .btn-sm:hover {
