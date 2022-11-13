@@ -116,15 +116,15 @@
   --tw-shadow: 0 0 transparent;
   --tw-ring-inset: var(--tw-empty, /*!*/ /*!*/);
   --tw-ring-offset-width: 0px;
-  --tw-ring-offset-color: #fff;
+  /* --tw-ring-offset-color: rgb(206, 187, 187); */
   --tw-ring-offset-shadow: 0 0 transparent;
   --tw-ring-shadow: 0 0 transparent;
   /* position: relative; */
   /* z-index: 100; */
   background-image: linear-gradient(90deg, var(--tw-gradient-stops));
-  --tw-gradient-from: #060606df;
+  --tw-gradient-from: #b59f9fdf;
   --tw-gradient-stops: var(--tw-gradient-from),
-    var(--tw-gradient-to, rgba(51, 140, 245, 0));
+    var(--tw-gradient-to, rgba(56, 102, 156, 0));
   --tw-gradient-to: #904125;
 
   -webkit-background-clip: text;
@@ -166,27 +166,17 @@
 }
 
 .grid-main {
-  font-feature-settings: "rlig" 1, "calt" 0;
-  --banner-height: 0px;
-  --vh100-offset: calc(var(--header-height) + var(--banner-height));
   font-size: 15px;
-  color-scheme: dark;
-  text-rendering: optimizeLegibility;
-  -webkit-font-smoothing: antialiased;
-  color: var(--geist-foreground);
-  font-family: var(--_1psdadq2f);
-  box-sizing: border-box;
-  border-radius: 8px;
-  box-shadow: 0 0 0 1px hsla(0, 0%, 100%, 0.15);
+  border-radius: 10px;
+  box-shadow: 0 0 0 1.3px hsla(0, 0%, 100%, 0.15);
   display: flex;
   align-items: center;
-  justify-content: center;
   flex-direction: column;
   text-align: center;
   position: relative;
   overflow: hidden;
-  padding: 100px;
-  grid-area: major-feat-1;
+  padding: 80px;
+  grid-template-columns: 1fr 1fr 1fr;
 }
 
 .block-link {
