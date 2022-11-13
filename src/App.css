@@ -198,23 +198,23 @@
 }
 
 .btn-sm {
-  opacity: 0.7;
-  text-decoration: none;
-  border-radius: var(--geist-radius);
-  color: white;
-  border: 1.4px solid var(--themed-border,var(--geist-background));
+  display: inline-block;
   display: flex;
   justify-content: center;
   align-items: center;
   height: var(--geist-form-small-height);
   padding-left: 1rem;
   padding-right: 1rem;
-  transition: all 0.2s ease;
+  text-decoration: none;
+  border-radius: 15px;
+  background-color: rgba(234, 225, 225, 0.101);
+  border: 1.5px solid rgba(231, 212, 212, 0.363);
+  backdrop-filter: blur(30px);
+  color: rgba(255, 255, 255, 0.8);
+  font-size: 19px;
+  letter-spacing: 1.3px;
 }
 
 .btn-sm:hover {
-  opacity: 0.9;
-  color: rgb(4, 4, 4);
-  background-color: var(--geist-background);
-  /* border: 1.4px solid var(--geist-background); */
+  background-color: rgba(255, 255, 255, 0.2);
 }
