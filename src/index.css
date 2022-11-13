@@ -1,5 +1,6 @@
 :root {
-  background-color: rgb(0, 0, 0);
+  background-color: rgb(18, 16, 16);
+  /* background-color: rgb(22, 22, 22); */
   background-image: url("img/background.png");
   background-repeat: no-repeat;
   background-position: center;
@@ -11,6 +12,9 @@
   --geist-form-small-height: var(--geist-space-small);
   --geist-form-line-height: 1.25rem;
   --geist-background: rgb(255, 255, 255);
+  --_1psdadq2f: "Inter", -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto",
+    "Oxygen", "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue",
+    sans-serif;
 }
 
 body {
