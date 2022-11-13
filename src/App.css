@@ -192,34 +192,29 @@
 
 .flex {
   display: flex;
-  width: 50%;
   justify-content: space-around;
   align-items: center;
   float: right;
 }
 
 .btn-sm {
-  --geist-space-small: 32px;/* --geist-page-width-with-margin: calc(var(--geist-page-width) + calc(2 * var(--geist-page-margin))); */
-  --geist-radius: 5px;
-  --geist-form-small-height: var(--geist-space-small);
-  --geist-form-font: 0.875rem;
-  --geist-form-line-height: 1.25rem;
-  --geist-foreground: #000;
-  --geist-background: #fff;
+  opacity: 0.7;
   text-decoration: none;
-  cursor: pointer;
-  user-select: none;
   border-radius: var(--geist-radius);
-  color: var(--themed-fg,var(--geist-foreground));
-  background: var(--themed-bg,var(--geist-background));
-  border: 1px solid var(--themed-border,var(--geist-background));
+  color: white;
+  border: 1.4px solid var(--themed-border,var(--geist-background));
   display: flex;
   justify-content: center;
   align-items: center;
-  transition-timing-function: ease;
-  line-height: var(--geist-form-line-height);
-  font-size: var(--geist-form-small-font);
   height: var(--geist-form-small-height);
-  margin-left: var(--geist-gap);
+  padding-left: 1rem;
+  padding-right: 1rem;
+  transition: all 0.2s ease;
 }
 
+.btn-sm:hover {
+  opacity: 0.9;
+  color: rgb(4, 4, 4);
+  background-color: var(--geist-background);
+  /* border: 1.4px solid var(--geist-background); */
+}

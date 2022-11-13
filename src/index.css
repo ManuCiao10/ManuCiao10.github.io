@@ -5,6 +5,12 @@
   background-position: center;
   -webkit-font-smoothing: antialiased;
   --accents-6: #999;
+
+  --geist-space-small: 39px;
+  --geist-radius: 5px;
+  --geist-form-small-height: var(--geist-space-small);
+  --geist-form-line-height: 1.25rem;
+  --geist-background: rgb(255, 255, 255);
 }
 
 body {
@@ -20,4 +26,3 @@ ul {
   justify-content: space-between;
   list-style-type: none;
 }
-
