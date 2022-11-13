@@ -46,7 +46,7 @@ function App() {
           
         </p>
         <div className="grid-main noHover noselect">
-          <a className="block-link" href="/payment">
+          <a className="block-link" href="https://discord.com/invite/7PepvThQ9p">
             <img src={img} alt="globe" className="globe" draggable="false" />
           </a>
           <div className="grid-text">
@@ -54,7 +54,7 @@ function App() {
             <p className="grid-desc noHover noselect">
               Your online presence to the next level.
             </p>
-            <div className="button-get noHover noselect">Get in touch</div>
+            <div className="button-get ">Get in touch</div>
           </div>
         </div>
       </div>
@@ -67,12 +67,11 @@ export default App;
 /*
 
 
-//for text use <p> instead of <div> because <p> is a block element
+
 - fix responsive with iphone and mobile
 - add discord and check if is possible to cheate the button to pay with the world inside
 0. add bottom border to header
 1. add btton under your online precence to the next level
 1. [+] Domain
-2. [+] sea sfondo end of the page
 6. [+] Clean the code adding functions and components
 */
