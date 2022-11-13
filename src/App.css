@@ -2,6 +2,7 @@
   max-width: 1280px;
   margin: 0 auto;
   padding: 2rem;
+  /* filter: grayscale(90%); */
 }
 
 .logo {
@@ -10,11 +11,12 @@
   height: 5.5em;
   width: 5.5em;
   filter: invert(0.8);
+  opacity: 0.8;
 }
 
 .title-bio {
   margin: 0;
-
+  filter: invert(0.8);
   tab-size: 4;
   -webkit-text-size-adjust: 100%;
   --tw-bg-opacity: 1;

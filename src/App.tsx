@@ -6,6 +6,10 @@ import logo from "../img/favicon.png";
 //add backgroud images
 import background from "../img/background.png";
 
+function sayHello() {
+  alert('You clicked me!');
+}
+
 function App() {
   return (
     <>
@@ -42,11 +46,11 @@ function App() {
           Your vision<br></br>
           <span className="title-bio-span noHover noselect">my execution</span>
         </div>
-        <p className="agency-intro noHover noselect">
-          
-        </p>
+        <p className="agency-intro noHover noselect"></p>
         <div className="grid-main noHover noselect">
-          <a className="block-link" href="https://discord.com/invite/7PepvThQ9p">
+          <a
+            className="block-link"
+          >
             <img src={img} alt="globe" className="globe" draggable="false" />
           </a>
           <div className="grid-text">
@@ -54,19 +58,22 @@ function App() {
             <p className="grid-desc noHover noselect">
               Your online presence to the next level.
             </p>
-            <div className="button-get ">Get in touch</div>
+            <button className="button-get" >Get in touch </button>
           </div>
+          
+          
         </div>
       </div>
+      
     </>
   );
 }
 
 export default App;
 
+
+
 /*
-
-
 
 - fix responsive with iphone and mobile
 - add discord and check if is possible to cheate the button to pay with the world inside
