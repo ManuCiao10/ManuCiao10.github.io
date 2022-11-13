@@ -38,13 +38,13 @@ function App() {
       <div className="App">
         {/* <Header /> */}
 
-        <img src={img} alt="globe" className="globe" />
-        <div className="title-bio noHover ">
+        <img src={img} alt="globe" className="globe" draggable= "false" />
+        <div className="title-bio noHover noselect">
           Your vision<br></br>
-          <span className="title-bio-span noHover">my execution</span>
+          <span className="title-bio-span noHover noselect">my execution</span>
         </div>
 
-        <p className="agency-intro noHover">
+        <p className="agency-intro noHover noselect">
           Your online presence to the next level.
         </p>
       </div>
@@ -56,9 +56,10 @@ export default App;
 
 /*
 
---draggable="false" is used to prevent the image from being dragged
+
 //for text use <p> instead of <div> because <p> is a block element
 
+- add discord and check if is possible to cheate the button to pay with the world inside
 0. add bottom border to header
 1. add btton under your online precence to the next level
 1. [+] Domain

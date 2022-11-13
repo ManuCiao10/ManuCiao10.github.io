@@ -51,7 +51,10 @@
 }
 
 .globe {
-  max-width: 20%;
+  width: 300px;
+  height: auto;
+  float: right;
+  max-width: 25%;
   filter: brightness(1);
   position: absolute;
 }
@@ -151,4 +154,13 @@
   display: flex;
   justify-content: space-between;
   align-items: center;
+}
+
+.noselect {
+  -webkit-touch-callout: none; /* iOS Safari */
+  -webkit-user-select: none; /* Safari */
+  -khtml-user-select: none; /* Konqueror HTML */
+  -moz-user-select: none; /* Old versions of Firefox */
+  -ms-user-select: none; /* Internet Explorer/Edge */
+  user-select: none; /* supported by Chrome, Edge, Opera and Firefox */
 }
