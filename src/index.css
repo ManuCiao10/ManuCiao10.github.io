@@ -2,7 +2,13 @@
   background-color: rgb(1, 1, 0);
   background-image: url("/Users/admin/Desktop/ManuCiao10.github.io/img/background.png");
   background-repeat: no-repeat;
-  background-size: cover;
+  /* background-size: cover; */
+  /* image-resolution: 1x; */
+  /* background-position: center; */
+  /* background-attachment: fixed; */
+  /* background-origin: padding-box; */
+  /* background-color: black; */
+  fill-opacity: calc(1 - var(--tw-bg-opacity, 1));
   
   background-position: center;
   -webkit-text-size-adjust: 100%;

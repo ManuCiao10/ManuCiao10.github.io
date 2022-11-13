@@ -5,10 +5,10 @@ import logo from "../img/favicon.png";
 // import Header from "./Header";
 //add backgroud images
 import background from "../img/background.png";
-
-function sayHello() {
-  alert('You clicked me!');
-}
+import { FaDiscord } from "react-icons/fa";
+import { FaGithub } from "react-icons/fa";
+import { MdEmail } from "react-icons/md";
+import { AiFillLinkedin } from "react-icons/ai";
 
 function App() {
   return (
@@ -30,9 +30,8 @@ function App() {
               <div className="header-right">
                 <ul className="header-list">
                   <li className="header-discord">
-                    <a className="block-link" href=""></a>
+                    <a className="block-link" href="f45g45"></a>
                   </li>
-                  {/* <li className="header-github"> */}
                 </ul>
               </div>
             </div>
@@ -48,9 +47,7 @@ function App() {
         </div>
         <p className="agency-intro noHover noselect"></p>
         <div className="grid-main noHover noselect">
-          <a
-            className="block-link"
-          >
+          <a className="block-link">
             <img src={img} alt="globe" className="globe" draggable="false" />
           </a>
           <div className="grid-text">
@@ -58,20 +55,15 @@ function App() {
             <p className="grid-desc noHover noselect">
               Your online presence to the next level.
             </p>
-            <button className="button-get" >Get in touch </button>
+            <button className="button-get">Get in touch </button>
           </div>
-          
-          
         </div>
       </div>
-      
     </>
   );
 }
 
 export default App;
-
-
 
 /*
 

@@ -2,7 +2,6 @@
   max-width: 1280px;
   margin: 0 auto;
   padding: 2rem;
-  /* filter: grayscale(90%); */
 }
 
 .logo {
@@ -232,7 +231,6 @@
   tab-size: 4;
   -webkit-text-size-adjust: 100%;
   line-height: inherit;
-  --tw-bg-opacity: 1;
   font-family: Inter, sans-serif;
   letter-spacing: -0.01em;
   -webkit-font-smoothing: antialiased;
@@ -240,8 +238,10 @@
   margin: 0;
   font-weight: 530;
   font-size: 1.25rem;
+  font-family: Inter, sans-serif;
+  font-weight: 800;
   --tw-text-opacity: 1;
-  color: rgba(102, 102, 102, var(--tw-text-opacity));
+  font-family: Inter, sans-serif;
 }
 
 .button-get {
