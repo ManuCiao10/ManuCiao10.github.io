@@ -4,7 +4,7 @@ import Header from "./Header";
 import Footer from "./Footer";
 import background from "./background";
 
-// new background();
+new background();
 
 function App() {
   return (
@@ -31,9 +31,10 @@ function App() {
                 data-tip
                 data-for="email"
                 href="mailto:emanuele.ardinghi@gmail.com"
-                className="btn-sm"
+                className="btn-sm-get"
               >
                 <span>Get in touch</span>
+                
               </a>
             </li>
           </div>
