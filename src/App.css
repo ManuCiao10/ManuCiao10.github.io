@@ -115,37 +115,27 @@
 }
 
 .grid-text {
-  color-scheme: dark;
   font-family: var(--_1psdadq2f);
   text-align: center;
   box-sizing: border-box;
   position: relative;
   font-size: 1.5em;
   line-height: 1.3em;
-  color: var(--accents-6);
-  font-weight: 600;
   display: flex;
   flex-direction: column;
   align-items: center;
+  justify-content: center;
+  opacity: 0.8;
   --text-gradient: linear-gradient(180deg, #fff, #aaa);
 }
 
 .grid-desc {
-  tab-size: 4;
-  -webkit-text-size-adjust: 100%;
-  line-height: inherit;
-  font-family: Inter, sans-serif;
-  letter-spacing: -0.01em;
-  -webkit-font-smoothing: antialiased;
-  text-align: center;
-  margin: 0;
-  font-weight: 530;
-  font-size: 1.25rem;
-  font-family: Inter, sans-serif;
-  font-weight: 800;
-  --tw-text-opacity: 1;
-  font-family: Inter, sans-serif;
-  line-height: 3;
+  font-family: var(--_1psdadq2f);
+  display: inline-flex;
+  border-radius: 100%;
+  color: var(--geist-background);
+  height: 40px;
+  opacity: 0.7;
 }
 
 .button-get {
@@ -193,30 +183,32 @@
 
 .separator {
   display: flex;
-  justify-content: center;
-  align-items: center;
-  margin: 0 1rem;
-  color: rgba(255, 255, 255, 0.5);
 }
 
 .path-line {
+  align-items: center;
   box-sizing: border-box;
   width: 1px;
   align-self: center;
   background: linear-gradient(var(--start-color), var(--end-color));
   padding-right: 1px;
-  height: 100px;
+  height: 120px;
   --start-color: black;
   --end-color: #019ae9;
 }
 
-
 .separator {
+  align-items: center;
   flex-direction: column;
   justify-content: center;
-  
+  align-items: center;
 }
 
+.section-label {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+}
 .section-label_number {
   font-family: var(--_1psdadq2f);
   display: inline-flex;
@@ -237,8 +229,6 @@
   font-family: var(--_1psdadq2f);
   font-size: 1.5rem;
   font-weight: 600;
-  color: var(--geist-foreground);
-  /* flex-direction: column; */
   background: linear-gradient(90deg, var(--start-color), var(--end-color));
   --start-color: #007cf0;
   --end-color: #00dfd8;
@@ -250,7 +240,6 @@
 .separator-wrapper {
   display: flex;
   justify-content: center;
-  align-items: center;
   margin: 0 1rem;
   color: rgba(255, 255, 255, 0.5);
 }
