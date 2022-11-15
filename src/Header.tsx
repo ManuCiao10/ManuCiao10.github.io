@@ -18,7 +18,7 @@ function Header() {
                   data-tip
                   data-for="email"
                   href="mailto:emanuele.ardinghi@gmail.com"
-                  className="btn-sm "
+                  className="btn-sm"
                 >
                   <span>Contact</span>
                 </a>
