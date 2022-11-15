@@ -33,7 +33,7 @@ import { loadLinksPreset } from "tsparticles-preset-links";
         },
       },
       size: {
-        value: 3,
+        value: 2,
         random: {
           enable: true,
 
@@ -51,7 +51,7 @@ import { loadLinksPreset } from "tsparticles-preset-links";
         enable: true,
         distance: 150,
         color: "#ffffff",
-        opacity: 0.4,
+        opacity: 0.5,
         width: 1,
         triangles: {
           enable: false,

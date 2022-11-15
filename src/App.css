@@ -9,14 +9,14 @@
   height: 5.5em;
   width: 5.5em;
   filter: invert(0.8);
-  opacity: 0.8;
+  /* opacity: 0.8; */
   z-index: 100;
 }
 
 .title-bio {
   filter: invert(0.8);
   -webkit-text-size-adjust: 100%;
-  --tw-bg-opacity: 1;
+  /* --tw-bg-opacity: 1; */
   font-family: Inter, sans-serif;
   font-weight: 800;
   line-height: 0.8;
@@ -238,7 +238,7 @@
   background: linear-gradient(90deg, var(--start-color), var(--end-color));
   --start-color: #007cf0;
   --end-color: #00dfd8;
-  opacity: 0.7;
+  /* opacity: 0.7; */
 }
 
 .section-label_phrase {

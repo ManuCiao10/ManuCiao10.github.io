@@ -4,7 +4,7 @@ import Header from "./Header";
 import Footer from "./Footer";
 import background from "./background"
 
-new background();
+// new background();
 
 function App() {
   return (
@@ -40,7 +40,7 @@ export default App;
 
 /*
 
-0. add movemmend background
+0. [+] Increase luminosity of background image
 1. [+] Domain (Vercel)
 2. [+] Clean the code adding functions and components
 */
