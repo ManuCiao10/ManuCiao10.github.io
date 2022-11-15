@@ -1,9 +1,9 @@
 :root {
-  background-color: rgb(18, 16, 16);
-  background-image: url("../img/background.png");
-  background-repeat: no-repeat;
-  background-position: center;
-  -webkit-font-smoothing: antialiased;
+  background-color: rgb(0, 0, 0);
+  /* background-image: url("../img/background.png"); */
+  /* background-repeat: no-repeat; */
+  /* background-position: center; */
+  /* -webkit-font-smoothing: antialiased; */
   --accents-6: #999;
   --geist-space-small: 39px;
   --geist-radius: 5px;
