@@ -2,9 +2,9 @@ import "./App.css";
 import img from "../img/globe-dark.png";
 import Header from "./Header";
 import Footer from "./Footer";
+import background from "./background"
 
-// import svg_ from "../img/statistics.svg";
-//<img src={svg_} alt="svg" className="svg_" draggable="false" />
+new background();
 
 function App() {
   return (
@@ -40,6 +40,7 @@ export default App;
 
 /*
 
+0. add movemmend background
 1. [+] Domain (Vercel)
 2. [+] Clean the code adding functions and components
 */

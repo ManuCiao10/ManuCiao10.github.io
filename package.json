@@ -15,7 +15,11 @@
     "react-icons": "^4.6.0",
     "react-router-dom": "^6.4.3",
     "react-tooltip": "^4.5.0",
-    "react-tsparticles": "^2.5.3"
+    "react-tsparticles": "^2.5.3",
+    "tsparticles": "^2.5.3",
+    "tsparticles-engine": "^2.5.2",
+    "tsparticles-preset-links": "^2.2.0",
+    "tsparticles-preset-triangles": "^2.5.3"
   },
   "devDependencies": {
     "@types/react": "^18.0.24",
