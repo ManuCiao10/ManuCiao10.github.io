@@ -28,3 +28,7 @@ ul {
   justify-content: space-between;
   list-style-type: none;
 }
+
+li {
+  list-style-type: none;
+}

@@ -2,9 +2,10 @@ import "./App.css";
 import img from "../img/globe-dark.png";
 import Header from "./Header";
 import Footer from "./Footer";
+import SocialMarketing from "./SocialMarketing";
 import background from "./background";
 
-new background();
+// new background();
 
 function App() {
   return (
@@ -34,13 +35,13 @@ function App() {
                 className="btn-sm-get"
               >
                 <span>Get in touch</span>
-                
               </a>
             </li>
           </div>
         </div>
       </div>
       <Footer />
+      {/* <SocialMarketing /> */}
     </div>
   );
 }
