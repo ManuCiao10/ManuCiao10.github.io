@@ -1,16 +1,15 @@
-
+import social from "../img/results.png";
+import toolbar from "../img/ui-toolbar.avif";
 
 function SocialMarketing() {
-
-    // return (
-    //     <article className="social-marketing">
-    //         <a className="block-link">
-    //             <img src={img} alt="globe" className="globe" draggable="false" />
-    //         </a>
-    //         <div className="social-marketing-text">
-    //             <div className="social-marketing-title">E-Commerce</div>
-
-
+  return (
+    <div className="social-marketing-header">
+      <div className="social-marketing-body">
+        <img src={social} alt="social" className="social-marketing-img" />
+        <img src={toolbar} alt="marketing" className="social-marketing-img" />
+      </div>
+    </div>
+  );
 }
 
-export default SocialMarketing
+export default SocialMarketing;

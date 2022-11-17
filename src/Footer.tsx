@@ -6,7 +6,7 @@ function Footer() {
         <div className="section-label">
           <span className="section-label_number">1</span>
           <h3 className="section-label_title">
-            <span className="section-label_phrase">Web Development</span>
+            <span className="section-label_phrase">Social Media Marketing</span>
           </h3>
         </div>
       </div>

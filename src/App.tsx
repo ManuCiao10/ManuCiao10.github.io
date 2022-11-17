@@ -1,11 +1,11 @@
 import "./App.css";
-import img from "../img/globe-dark.png";
+// import img from "../img/globe-dark.png";
 import Header from "./Header";
 import Footer from "./Footer";
 import SocialMarketing from "./SocialMarketing";
 import background from "./background";
 
-// new background();
+new background();
 
 function App() {
   return (
@@ -41,7 +41,7 @@ function App() {
         </div>
       </div>
       <Footer />
-      {/* <SocialMarketing /> */}
+      <SocialMarketing />
     </div>
   );
 }
@@ -49,6 +49,8 @@ function App() {
 export default App;
 
 /*
+
+-add button change with check price or buy product
 
 0. [+] Increase luminosity of background image
 1. [+] Domain (Vercel)

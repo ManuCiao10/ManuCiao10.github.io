@@ -48,9 +48,8 @@
 } */
 
 /* .agency-intro { */
-  /* z-index: 100; */
-  /* margin-top: 3rem; */
-
+/* z-index: 100; */
+/* margin-top: 3rem; */
 
 .title-bio-span {
   /* z-index: 100; */
@@ -67,7 +66,7 @@
 
 /* .noHover {
   /* pointer-events: none; */
-  /* z-index: 100;
+/* z-index: 100;
 } 
 
  */
@@ -166,7 +165,7 @@
 }
 
 .flex {
-  list-style:none ;
+  list-style: none;
   z-index: 100;
   display: flex;
   justify-content: space-around;
@@ -239,10 +238,6 @@
   color: rgba(255, 255, 255, 0.5);
 }
 
-
-
-
-
 /* CSS */
 .btn-sm-get {
   box-sizing: border-box;
@@ -252,18 +247,19 @@
   background-color: #fff;
   border-radius: 24px;
   border-style: none;
-  box-shadow: rgba(0, 0, 0, .2) 0 3px 5px -1px,rgba(0, 0, 0, .14) 0 6px 10px 0,rgba(0, 0, 0, .12) 0 1px 18px 0;
+  box-shadow: rgba(0, 0, 0, 0.2) 0 3px 5px -1px,
+    rgba(0, 0, 0, 0.14) 0 6px 10px 0, rgba(0, 0, 0, 0.12) 0 1px 18px 0;
   box-sizing: border-box;
   color: #3c4043;
   cursor: pointer;
   display: inline-flex;
   fill: currentcolor;
-  font-family: "Google Sans",Roboto,Arial,sans-serif;
+  font-family: "Google Sans", Roboto, Arial, sans-serif;
   font-size: 14px;
   font-weight: 500;
   height: 48px;
   justify-content: center;
-  letter-spacing: .25px;
+  letter-spacing: 0.25px;
   line-height: normal;
   max-width: 100%;
   overflow: visible;
@@ -271,15 +267,15 @@
   position: relative;
   text-align: center;
   text-transform: none;
-  transition: box-shadow 280ms cubic-bezier(.4, 0, .2, 1),opacity 15ms linear 30ms,transform 270ms cubic-bezier(0, 0, .2, 1) 0ms;
+  transition: box-shadow 280ms cubic-bezier(0.4, 0, 0.2, 1),
+    opacity 15ms linear 30ms, transform 270ms cubic-bezier(0, 0, 0.2, 1) 0ms;
   user-select: none;
   -webkit-user-select: none;
   touch-action: manipulation;
   width: auto;
-  will-change: transform,opacity;
-  z-index: 0;
+  will-change: transform, opacity;
+  z-index: 100;
   text-decoration: none;
-  
 }
 
 .btn-sm-get:hover {
@@ -288,3 +284,22 @@
   text-decoration: none;
 }
 
+.social-marketing-body {
+  /* box-sizing: border-box; */
+  flex: 1 1;
+  max-width: 100%;
+  flex-direction: column;
+  display: flex;
+  position: relative;
+  z-index: 100;
+}
+
+.social-marketing-header {
+  border-color: #007cf0;
+  /* border-radius: 2000px; */
+  width: 580px;
+  height: 3px;
+  max-width: 100%;
+  padding-left: -10rem;
+  padding-top: 3rem;
+}
