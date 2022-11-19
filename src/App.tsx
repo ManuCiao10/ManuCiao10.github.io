@@ -14,8 +14,8 @@ function App() {
 
       <div className="App">
         <div className="title-bio noHover noselect">
-          Your vision<br></br>
-          <span className="title-bio-span noHover noselect">my execution</span>
+        WE CREATE IMMERSIVE <br></br>
+          <span className="title-bio-span noHover noselect">3D EXPERIENCES</span>
         </div>
         {/* <p className="agency-intro noHover noselect"></p> */}
         <div className="grid-main noHover noselect">
